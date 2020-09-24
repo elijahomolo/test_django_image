@@ -25,7 +25,9 @@ SECRET_KEY = '5f*-%nrulvsvboq-owwec*0m097k+1i4ctwtb-661@b%=myrfz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0'
+]
 
 
 # Application definition
@@ -68,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'testdjangoimage.wsgi.application'
- 
+
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
